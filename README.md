@@ -1,5 +1,10 @@
 # Aegis Clinical Bipolar Workspace
 
+## Live Demo / Deployment URL
+
+**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The GitHub repository link is not a deployment URL.
+
+
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/Aegis-Clinical-Bipolar-Workspace) [![Issues](https://img.shields.io/github/issues/saikishore2410/Aegis-Clinical-Bipolar-Workspace)](https://github.com/saikishore2410/Aegis-Clinical-Bipolar-Workspace/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/Aegis-Clinical-Bipolar-Workspace)](https://github.com/saikishore2410/Aegis-Clinical-Bipolar-Workspace/commits/main)
 
 > A software project exploring a clinical-support workspace related to bipolar-disorder care. Review the implementation for exact workflows, data models, and integrations.
