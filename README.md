@@ -1,10 +1,10 @@
 # Aegis Clinical Bipolar Workspace
 
-A software project exploring a clinical-support workspace related to bipolar-disorder care. Review the implementation to understand the exact workflows, data model, and supported integrations.
+A software project exploring a clinical-support workspace related to bipolar-disorder care. Review the implementation for exact workflows, data models, and integrations.
 
 ## Responsible scope
 
-Clinical and mental-health software requires careful privacy, safety, and validation practices. The application should not be represented as a diagnostic or treatment substitute unless the appropriate clinical validation, governance, and regulatory review have been completed.
+Clinical and mental-health software requires careful privacy, safety, and validation practices. Do not represent the application as a diagnostic or treatment substitute unless appropriate clinical validation, governance, and regulatory review have been completed.
 
 ## Getting started
 
@@ -13,7 +13,7 @@ git clone https://github.com/saikishore2410/Aegis-Clinical-Bipolar-Workspace.git
 cd Aegis-Clinical-Bipolar-Workspace
 ```
 
-Follow the stack-specific install and run steps declared by project manifests and setup files. Configure secrets locally; never commit credentials or real patient information.
+Follow the stack-specific install and run steps declared by the project. Configure secrets locally; never commit credentials or real patient information.
 
 ## Safety and privacy checklist
 
@@ -21,12 +21,12 @@ Follow the stack-specific install and run steps declared by project manifests an
 - Minimize collection of sensitive health information
 - Document access control, retention, deletion, and audit behaviour
 - Validate clinical claims with qualified professionals
-- Make limitations and escalation guidance clear
-- Test authorization and failure cases before any real-world use
+- State limitations and escalation guidance clearly
+- Test authorization and failure cases before real-world use
 
 ## Contributions
 
-Changes involving health-related recommendations, data handling, or clinical workflows should include careful review and tests.
+Changes involving health recommendations, data handling, or clinical workflows should include careful review and tests.
 
 ## License
 
