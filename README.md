@@ -1,51 +1,42 @@
 # Aegis Clinical Bipolar Workspace
 
-## Live Demo / Deployment URL
+[![Source](https://img.shields.io/badge/Source-GitHub-181717?logo=github)](https://github.com/kandisaikishore/Aegis-Clinical-Bipolar-Workspace) [![Last Commit](https://img.shields.io/github/last-commit/kandisaikishore/Aegis-Clinical-Bipolar-Workspace)](https://github.com/kandisaikishore/Aegis-Clinical-Bipolar-Workspace/commits/main)
 
-**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The GitHub repository link is not a deployment URL.
+A clinical-support workspace concept for organizing information and workflows related to bipolar-care contexts. The repository is a software project, not a clinical validation claim; the exact modules and data flows must be verified in the implementation.
 
+## Design goals
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/Aegis-Clinical-Bipolar-Workspace) [![Issues](https://img.shields.io/github/issues/saikishore2410/Aegis-Clinical-Bipolar-Workspace)](https://github.com/saikishore2410/Aegis-Clinical-Bipolar-Workspace/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/Aegis-Clinical-Bipolar-Workspace)](https://github.com/saikishore2410/Aegis-Clinical-Bipolar-Workspace/commits/main)
-
-> A software project exploring a clinical-support workspace related to bipolar-disorder care. Review the implementation for exact workflows, data models, and integrations.
-
-## At a glance
-
-- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
-- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
-- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
-- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
-
-
-
-A software project exploring a clinical-support workspace related to bipolar-disorder care. Review the implementation for exact workflows, data models, and integrations.
-
-## Responsible scope
-
-Clinical and mental-health software requires careful privacy, safety, and validation practices. Do not represent the application as a diagnostic or treatment substitute unless appropriate clinical validation, governance, and regulatory review have been completed.
+- Present information in a clear, structured, and accessible way
+- Support organized workflows for appropriate users
+- Keep privacy, consent, and access controls central
+- Make limitations visible and avoid overclaiming clinical capabilities
 
 ## Getting started
 
 ```bash
-git clone https://github.com/saikishore2410/Aegis-Clinical-Bipolar-Workspace.git
+git clone https://github.com/kandisaikishore/Aegis-Clinical-Bipolar-Workspace.git
 cd Aegis-Clinical-Bipolar-Workspace
 ```
 
-Follow the stack-specific install and run steps declared by the project. Configure secrets locally; never commit credentials or real patient information.
+Follow the project's own package manifests and setup instructions for runtime dependencies. Configure secrets locally. Do not use real patient information in development data, tests, screenshots, or logs.
 
-## Safety and privacy checklist
+## Clinical safety and privacy
 
-- Use synthetic data for demos and tests
-- Minimize collection of sensitive health information
-- Document access control, retention, deletion, and audit behaviour
-- Validate clinical claims with qualified professionals
-- State limitations and escalation guidance clearly
-- Test authorization and failure cases before real-world use
+This project is not a substitute for qualified clinical assessment, diagnosis, treatment, or emergency services. Any clinical workflow, recommendation, or decision-support feature needs appropriate domain review, validation, and governance before real-world use. Treat sensitive health information according to applicable privacy and security requirements.
 
-## Contributions
+## Quality checklist
 
-Changes involving health recommendations, data handling, or clinical workflows should include careful review and tests.
+- Enforce authentication, authorization, and least-privilege access
+- Minimize sensitive data collection and retention
+- Use synthetic data in development and tests
+- Audit sensitive actions and protect logs
+- Document intended use, limitations, and review requirements
+- Test accessibility and safe handling of failures
+
+## Contributing
+
+Proposals should include reproducible steps, validation evidence, and any relevant safety/privacy considerations.
 
 ## License
 
-No license is specified. Add a `LICENSE` file to define reuse terms.
+No license file is currently declared. Add a `LICENSE` file to define reuse terms.
